@@ -1,0 +1,124 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/spec/features/navigation_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/spec/models/post_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/controllers/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          16,
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/controllers/pages_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/controllers/posts_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jamison/Desktop/jamison/personal_projects/personal_site/personal_website/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1698787038
+  }
+}
