@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "/portfolio", to: "projects#index", as: "projects"
   get "/blogs", to: "posts#index", as: "posts"
   get "/blogs/new", to: "posts#new", as: "new_post"
+  post "/blogs", to: "posts#create"
   
   get "/login", to: "sessions#show"
   post "/login", to: "sessions#create"
