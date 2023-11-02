@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "pages#index"
   get "/portfolio", to: "projects#index", as: "projects"
-  get "/blogs", to: "posts#index", as: "posts"
-  get "/blogs/new", to: "posts#new", as: "new_post"
+
+  resources :posts
   
   get "/login", to: "sessions#show"
   post "/login", to: "sessions#create"
