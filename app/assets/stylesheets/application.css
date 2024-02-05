@@ -1,3 +1,92 @@
+body {
+  background-color: #ECEEE8;
+  margin: 0;
+}
+
+.container {
+  --main-bg-color: #ECEEE8; /* Alabaster */
+  --header-font-family: 'Garamond', serif;
+  --text-font-family: 'Trebuchet MS', sans-serif;
+  --black: #1E2019;
+  --orange: #FFA21F;
+  --medium-green: #675D26;
+  --gray: #7E8B7E;
+}
+
+.base {
+  background-color: var(--main-bg-color);
+  color: var(--black);
+  font-family: var(--header-font-family);
+}
+
+.nav {
+  background-color: var(--orange);
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h1 {
+    font-family: var(--header-font-family);
+    color: var(--black);
+    text-shadow: 1px 1px 2px #FF810A;
+  }
+
+  a, a.active {
+    font-family: var(--text-font-family);
+    color: var(--black);
+  }
+  a:hover {
+    color: var(--main-bg-color);
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    .btn {
+      margin-right: .5rem;
+      border: 2px solid var(--medium-green);
+      padding: .5rem;
+      background-color: var(--gray);
+    }
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  /* .nav > .buttons {
+    display: inline-block;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+  } */
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      margin: .25rem;
+    }
+    .buttons {
+      .btn {
+        margin-right: 0rem;
+        margin: .25rem;
+        padding: .25rem;
+      }
+    }
+  }
+}
+
+/* 
+ash gray: #7E8B7E
+eerie black: #1E2019
+alabaster: #ECEEE8
+orange peel: #FFA21F
+field drab (green): #675D26
+*/
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

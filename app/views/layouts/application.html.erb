@@ -10,11 +10,17 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <nav>
-      <%= link_to "Portfolio", "/portfolio" %>
-      <%= link_to "Blog Posts", posts_path %>
-    </nav>
-    <%= yield %>
+  <body class="container">
+    <div class="base">
+      <nav class="nav">
+        <h1>jamisonordway.dev</h1>
+        <div class="buttons">
+          <%= link_to "Home", "/", class: 'btn' %>
+          <%= link_to "Portfolio", "/portfolio", class: 'btn' %>
+          <%= link_to "Blog Posts", posts_path, class: 'btn' %>
+        </div>
+      </nav>
+      <%= yield %>
+    </div>
   </body>
 </html>
