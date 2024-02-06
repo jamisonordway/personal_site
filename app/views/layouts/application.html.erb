@@ -13,11 +13,11 @@
   <body class="container">
     <div class="base">
       <nav class="nav">
-        <h1>jamisonordway.dev</h1>
+        <%= link_to "jamisonordway.dev", "/", class: 'home-btn' %>
         <div class="buttons">
-          <%= link_to "Portfolio", "/portfolio", class: 'btn' %>
+          <%= link_to "Portfolio", "/", class: 'btn' %>
           <%= link_to "Blog Posts", posts_path, class: 'btn' %>
-          <%= link_to "Contact", "/", class: 'btn' %>
+          <%= link_to "Contact", "/contact", class: 'btn' %>
         </div>
       </nav>
       <%= yield %>
