@@ -5,8 +5,8 @@ body {
 
 .container {
   --main-bg-color: #ECEEE8; /* Alabaster */
-  --header-font-family: 'Garamond', serif;
-  --text-font-family: 'Trebuchet MS', sans-serif;
+  --header-font-family: 'Palatino', serif;
+  --text-font-family: 'Courier New', monospace;
   --black: #1E2019;
   --orange: #FFA21F;
   --medium-green: #675D26;
@@ -47,7 +47,7 @@ body {
     .btn {
       margin-right: .5rem;
       border: 2px solid var(--medium-green);
-      padding: .5rem;
+      padding: 1rem;
       background-color: var(--gray);
     }
   }
