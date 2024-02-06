@@ -38,7 +38,16 @@ body {
     color: var(--black);
   }
   a:hover {
-    color: var(--main-bg-color);
+    color: var(--orange);
+  }
+
+  .home-btn {
+    font-family: var(--header-font-family);
+    color: var(--black);
+    text-shadow: 1px 1px 1px var(--gray);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
   }
   
   .buttons {
@@ -85,6 +94,15 @@ body {
         padding: .25rem;
       }
     }
+  }
+}
+
+.styled-link {
+  a, a:visited {
+    color: var(--medium-green);
+  }
+  a:hover {
+    color: var(--orange);
   }
 }
 
