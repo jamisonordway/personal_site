@@ -5,8 +5,8 @@ body {
 
 .container {
   --main-bg-color: #ECEEE8; /* Alabaster */
-  --header-font-family: 'Garamond', serif;
-  --text-font-family: 'Trebuchet MS', sans-serif;
+  --header-font-family: 'Palatino', serif;
+  --text-font-family: 'Courier New', monospace;
   --black: #1E2019;
   --orange: #FFA21F;
   --medium-green: #675D26;
@@ -20,16 +20,17 @@ body {
 }
 
 .nav {
-  background-color: var(--orange);
+  /* background-color: var(--orange); */
   padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 3px solid var(--black);
 
   h1 {
     font-family: var(--header-font-family);
     color: var(--black);
-    text-shadow: 1px 1px 2px #FF810A;
+    text-shadow: 1px 1px 1px var(--gray);
   }
 
   a, a.active {
@@ -47,9 +48,17 @@ body {
     .btn {
       margin-right: .5rem;
       border: 2px solid var(--medium-green);
-      padding: .5rem;
-      background-color: var(--gray);
+      padding: 1rem;
+      background-color: var(--main-bg-color);
     }
+  }
+}
+
+.info {
+  margin: 2rem;
+  font-size: 2rem;
+  p {
+    font-family: var(--text-font-family);
   }
 }
 

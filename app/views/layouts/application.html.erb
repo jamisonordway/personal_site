@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalWebsite</title>
+    <title>Jamison Ordway</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -15,9 +15,9 @@
       <nav class="nav">
         <h1>jamisonordway.dev</h1>
         <div class="buttons">
-          <%= link_to "Home", "/", class: 'btn' %>
           <%= link_to "Portfolio", "/portfolio", class: 'btn' %>
           <%= link_to "Blog Posts", posts_path, class: 'btn' %>
+          <%= link_to "Contact", "/", class: 'btn' %>
         </div>
       </nav>
       <%= yield %>
