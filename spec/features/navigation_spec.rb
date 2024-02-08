@@ -18,6 +18,6 @@ RSpec.describe "Site navigation" do
   it "displays About Me section on homepage" do
     visit root_path
 
-    expect(page).to have_content("Jamison Ordway - Software Engineer")
+    expect(page).to have_content("Portfolio")
   end
 end

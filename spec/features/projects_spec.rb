@@ -8,7 +8,7 @@ RSpec.describe "projects index and show" do
       description: "Lightweight command-line study tool built in Python"
     )
 
-    visit "/portfolio"
+    visit "/"
 
     expect(page).to have_link("Flashcards")
   end
@@ -20,7 +20,7 @@ RSpec.describe "projects index and show" do
       description: "Lightweight command-line study tool built in Python"
     )
 
-    visit "/portfolio"
+    visit "/"
 
     click_on "Flashcards"
     expect(current_path).to eq(project_path(project))
