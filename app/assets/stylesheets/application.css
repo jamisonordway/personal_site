@@ -65,7 +65,7 @@ body {
 
 .info {
   margin: 2rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
   p {
     font-family: var(--text-font-family);
   }
@@ -74,12 +74,9 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
-  /* .nav > .buttons {
-    display: inline-block;
-    position: absolute;
-    right: 0rem;
-    top: 0rem;
-  } */
+  .info {
+    font-size: .75rem;
+  }
   .nav {
     display: flex;
     flex-direction: column;
