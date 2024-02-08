@@ -66,8 +66,44 @@ body {
 .info {
   margin: 2rem;
   font-size: 1.25rem;
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
   p {
     font-family: var(--text-font-family);
+  }
+  .project {
+    padding: 2rem;
+    /* background-color: var(--gray); */
+    border: solid 1px var(--black);
+    box-shadow: var(--black) 0px 6px 12px -2px, var(--gray) 0px 3px 7px -3px;
+  }
+  a, a.active {
+    font-family: var(--text-font-family);
+    color: var(--black);
+  }
+  a:hover {
+    padding: .5rem;
+    color: var(--orange);
+    background-color: var(--black);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input, textarea {
+      margin-bottom: 1rem;
+    }
+    .form-btn {
+      width: 25%;
+      align-self: center;
+      padding: 1rem;
+      background-color: var(--medium-green);
+      color: var(--main-bg-color)
+    }
   }
 }
 

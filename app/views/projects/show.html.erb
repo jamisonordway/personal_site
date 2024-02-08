@@ -1,3 +1,8 @@
-<%= @project.title %>
-<% @project.url %>
-<% @project.description %>
+<section class="info">
+  <section class="project">
+    <h1><%= @project.title %></h1>
+    <%= link_to "View #{@project.title} on GitHub", @project.url %>
+    <h4>About this project:</h3>
+    <p><%= @project.description %></p>
+  </section>
+</section>
