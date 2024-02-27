@@ -1,0 +1,11 @@
+<section class="info">
+  <%= form_with model: @project do |form| %>
+      <%= form.label :title, "Project Title" %>
+      <%= form.text_field :title %>
+      <%= form.label :url, "Project URL" %>
+      <%= form.text_field :url %>
+      <%= form.label :description %>
+      <%= form.text_area :description, cols: 20, rows: 40 %>
+    <%= form.submit class: 'form-btn' %>
+  <% end %>
+</section>
